@@ -1,0 +1,7 @@
+<div class="dock">
+  @for (app of apps; track app.name) {
+    <div class="app-icon">
+      <img class="icon" [src]="`assets/icons/${app.icon}.png`" [alt]="app.name">
+    </div>
+  }
+</div>

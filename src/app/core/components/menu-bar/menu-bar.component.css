@@ -1,0 +1,28 @@
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(25px);
+}
+
+.apple-logo {
+  height: 16px;
+  user-select: none;
+}
+
+.preference-icon {
+  display: flex;
+  align-items: center;
+  height: 16px;
+  width: 16px;
+}
+
+.menu-bar div:last-child {
+  display: flex;
+  padding: 0 10px;
+}
